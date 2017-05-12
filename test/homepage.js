@@ -55,8 +55,8 @@ describe('Home page', function() {
         assert.equal(registerTitle, 'Registration');
         });
 
-    it.only('should be possible to register', function () {
-        browser.url('/');
+    it('should be possible to register', function () {
+
                 //First step
         browser.click('.btn_action_sign-up');
         browser.pause(1000)
@@ -68,6 +68,7 @@ describe('Home page', function() {
         browser.selectByIndex('#year', 10);
         browser.setValue('[name=email]','test@playtech.com');
         browser.click('.fn-next');
+
                 //Second step
         browser.setValue('[name=address]','testAddress');
         browser.setValue('[name=city]','testCity');
@@ -76,6 +77,7 @@ describe('Home page', function() {
         browser.setValue('[name=zip]','12345');
         browser.setValue('[name=cellphone]','+491234567890');
         browser.click('.fn-next');
+
                 //Third step
         var randomUser = utils.makeid();
         browser.setValue('[name=userName]', 'USER' + randomUser);
