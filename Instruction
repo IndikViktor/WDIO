@@ -1,0 +1,14 @@
+1. Install NodeJS
+2. Install Java SE and Java RE
+3. Set JAVA_HOME and JRE_HOME variables in the PATH
+4. Create new project
+5. Type in the console npm init (set all needed information)
+6. Type in teh console npm install webdriverio --save-dev
+7. Type in the console npm test (set test folder ./test/**/*.js)
+8. Create test folder in the root of the project.
+
+
+Troubleshooting:
+1) problem with selenium selenium-standalone server
+In the root folder "npm install selenium-standalone"
+Navigate to the node_modules/.bin and execute command "selenium-standalone install"
