@@ -1,11 +1,15 @@
 {
   "name": "wdio",
   "version": "1.0.0",
-  "description": "description",
+  "description": "",
   "main": "index.js",
   "directories": {
     "test": "tests"
   },
+  "dependencies": {
+    "webdriverio": "^5.7.8"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,13 +17,11 @@
     "type": "git",
     "url": "git+https://github.com/IndikViktor/WDIO.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/IndikViktor/WDIO/issues"
   },
-  "homepage": "https://github.com/IndikViktor/WDIO#readme",
-  "dependencies": {
-    "webdriverio": "^5.7.8"
-  }
+  "homepage": "https://github.com/IndikViktor/WDIO#readme"
 }
