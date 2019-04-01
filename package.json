@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/IndikViktor/WDIO/issues"
   },
-  "homepage": "https://github.com/IndikViktor/WDIO#readme"
+  "homepage": "https://github.com/IndikViktor/WDIO#readme",
+  "dependencies": {
+    "webdriverio": "^5.7.8"
+  }
 }
